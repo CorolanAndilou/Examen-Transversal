@@ -1,0 +1,14 @@
+.form-field {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.form-field label {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.form-field .form-control {
+  border-radius: 0.75rem;
+  min-height: 48px;
+}

@@ -1,0 +1,19 @@
+.provider-info-card {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.provider-info-card .card-body {
+  display: grid;
+  gap: 1rem;
+}
+
+.provider-info-card p {
+  margin-bottom: 0;
+  color: #343a40;
+}
+
+.provider-info-card p strong {
+  display: inline-block;
+  width: 5.5rem;
+}

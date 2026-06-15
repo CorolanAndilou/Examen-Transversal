@@ -1,0 +1,13 @@
+.provider-section {
+  display: grid;
+  gap: 1.75rem;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .provider-section {
+    padding: 1rem 0.5rem;
+  }
+}

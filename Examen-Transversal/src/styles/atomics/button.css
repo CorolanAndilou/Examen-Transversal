@@ -1,0 +1,16 @@
+.app-button {
+  min-width: 180px;
+  border-radius: 0.85rem;
+  padding: 0.9rem 1.2rem;
+  font-weight: 600;
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.app-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.app-button:disabled {
+  opacity: 0.78;
+  cursor: not-allowed;
+}
